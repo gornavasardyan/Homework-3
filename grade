@@ -2,7 +2,7 @@ let score = 80;
 let pass="";
 let grade="";
 switch(score) {
-    case score>70 ? score : true:
+    case score>=70 ? score : true:
         pass = "Passed";
         break;
     case score<70 ? score: true:
