@@ -1,12 +1,14 @@
 let score = 80;
 let pass="";
 let grade="";
-switch(score) {
-    case score>=70 ? score : true:
-        pass = "Passed";
+switch(true)
+{
+    case score>70:
+        pass = "passed";
         break;
-    case score<70 ? score: true:
-        pass = "Failed";
+
+    case score<70:
+        pass = "failed";
         break;
 }
 if(score<=100 && score>=97) {
